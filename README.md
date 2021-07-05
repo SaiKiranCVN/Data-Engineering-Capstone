@@ -43,3 +43,16 @@ Dimension Table - I94 immigration data Events Columns:
 This data model works, since we can store these 3 tables(star model) in redshift if we wanted, and perform joins to extract all the required information to check if the average temperature effects immigration.
 
 Follow the instructions in the notebook for stepwise implementation!
+
+## Scenarios
+
+The data was increased by 100x.
+*  Use Amazon Redshift, since its optimised for aggregation and read-heavy workloads
+*  Increase EMR cluster size to handle bigger volume of data
+
+The data populates a dashboard that must be updated on a daily basis by 7am every day.
+*  Use AIrflow to schedule dialy, with emails on failure
+*  ALso, use DAG Quality checks for every load.
+
+The database needed to be accessed by 100+ people.
+*  Can use Redshift, since it supports concurrency upto 50 people, and we can use more than one cluster.
