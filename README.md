@@ -2,6 +2,6 @@
 
 Data Model 
 
-[](./model.png)
+![alt txt](/model.png)
 
 Follow the instructions in the notebook!
