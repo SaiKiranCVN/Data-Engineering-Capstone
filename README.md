@@ -2,7 +2,7 @@
 
 ## Data Model 
 
-![alt txt](/model.jpg)
+![alt txt](/models.jpg)
 
 
 Fact Table - This will contain information from the I94 immigration data joined with the city temperature data on i94port 
