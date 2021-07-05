@@ -40,7 +40,7 @@ Dimension Table - I94 immigration data Events Columns:
 * depdate = departure date from the USA
 * i94visa = reason for immigration
 
-### Justification and tech stack
+### Justification and Tech Stack
 
 This data model works, since we can store these 3 tables(star model) in redshift if we wanted, and perform joins to extract all the required information to check if the average temperature effects immigration.
 This project uses S3 as storage of raw(extracted) and processed in spark(AWS EMR). Spark is used since, we have more rows(million), and spark uses parallel processing. 
