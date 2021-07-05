@@ -18,7 +18,7 @@ Columns:
 * AverageTemperature = average temperature of destination city
 
 
-Dimension Tables - df_temperature, df_demographics
+Dimension Tables - df_immigration, df_demographics
 
 df_temperature:- 
 * i94port = code of destination city (mapped from cleaned up immigration data)
@@ -29,16 +29,15 @@ df_temperature:-
 * Longitude = longitude
 
 
-df_demographics:- 
-* State Code = 2 letter state code
-* City = city name
-* Male Population
-* Female Population
-* Total Population
-* Foreign-born
-* Number of Veterans
-* Race
-* Count
-* Average Household Size
+Dimension Table - I94 immigration data Events Columns:
+
+* i94yr = 4 digit year
+* i94mon = numeric month
+* i94cit = 3 digit code of origin city
+* i94port = 3 character code of destination USA city
+* arrdate = arrival date in the USA
+* i94mode = 1 digit travel code
+* depdate = departure date from the USA
+* i94visa = reason for immigration
 
 Follow the instructions in the notebook!
