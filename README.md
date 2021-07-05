@@ -2,6 +2,6 @@
 
 Data Model 
 
-[./model.png]()
+[](./model.png)
 
 Follow the instructions in the notebook!
